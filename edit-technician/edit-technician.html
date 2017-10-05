@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>StorageStarted</title>
+    <meta name="description" content="JavaScript 存储入门 Demo">
+    <!-- LeanCloud -->
+    <script src="https://unpkg.com/leancloud-storage/dist/av.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="./../header.css" rel="stylesheet">
+    <link href="edit-technician.css" rel="stylesheet">
+    <script type="text/javascript" src="./../initLeanCloud.js"></script>
+    <script type="text/javascript" src="./../reuseMethods.js"></script>
+    <script type="text/javascript" src="edit-technician.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav pull-right">
+            <li role="presentation"><a href="#" onclick="showTechnicianList()">全部技师</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">技师资料<h3>
+      </div>
+      <div class="row technicians-detail">
+        <script id="technicians-list" type="text/x-handlebars-template">
+          <div class="thumbnail">
+            <div class="caption">
+              <p>技师：{{{name}}}</p>
+              <p>入职时间：{{{releaseTime}}}</p>
+              <p>技师订单：xxx 笔</p>
+              <p>技师收入：{{amountCount}} 元</p>
+          </div>
+        </script>
+      </div>
+    </div>
+
+  </body>
+</html>

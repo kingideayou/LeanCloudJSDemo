@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose config Skipping project config: /Users/NeXT/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly fetchNamedPackageData cheerio
+21 silly mapToRegistry name cheerio
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry http://r.cnpmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'cheerio',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'cheerio',
+24 silly mapToRegistry   name: 'cheerio',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri http://r.cnpmjs.org/cheerio
+26 silly fetchNamedPackageData express
+27 silly mapToRegistry name express
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry http://r.cnpmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'express',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'express',
+30 silly mapToRegistry   name: 'express',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri http://r.cnpmjs.org/express
+32 silly fetchNamedPackageData request
+33 silly mapToRegistry name request
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry http://r.cnpmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'request',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   escapedName: 'request',
+36 silly mapToRegistry   name: 'request',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri http://r.cnpmjs.org/request
+38 silly fetchNamedPackageData vue
+39 silly mapToRegistry name vue
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry http://r.cnpmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'vue',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'vue',
+42 silly mapToRegistry   name: 'vue',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri http://r.cnpmjs.org/vue
+44 verbose request uri http://r.cnpmjs.org/cheerio
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 21:29:05
+47 verbose request id 3bbd3bce9c84e754
+48 http request GET http://r.cnpmjs.org/cheerio
+49 verbose request uri http://r.cnpmjs.org/request
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 21:29:05
+52 http request GET http://r.cnpmjs.org/request
+53 verbose request uri http://r.cnpmjs.org/express
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 21:29:05
+56 http request GET http://r.cnpmjs.org/express
+57 verbose request uri http://r.cnpmjs.org/vue
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 21:29:05
+60 http request GET http://r.cnpmjs.org/vue
+61 http 200 http://r.cnpmjs.org/cheerio
+62 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+62 verbose headers   date: 'Wed, 04 Oct 2017 13:29:05 GMT',
+62 verbose headers   'content-type': 'application/json; charset=utf-8',
+62 verbose headers   'transfer-encoding': 'chunked',
+62 verbose headers   connection: 'keep-alive',
+62 verbose headers   'x-current-requests': '1',
+62 verbose headers   'x-readtime': '210',
+62 verbose headers   'strict-transport-security': 'max-age=15768000',
+62 verbose headers   'content-encoding': 'gzip' }
+63 silly get cb [ 200,
+63 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+63 silly get     date: 'Wed, 04 Oct 2017 13:29:05 GMT',
+63 silly get     'content-type': 'application/json; charset=utf-8',
+63 silly get     'transfer-encoding': 'chunked',
+63 silly get     connection: 'keep-alive',
+63 silly get     'x-current-requests': '1',
+63 silly get     'x-readtime': '210',
+63 silly get     'strict-transport-security': 'max-age=15768000',
+63 silly get     'content-encoding': 'gzip' } ]
+64 verbose get saving cheerio to /Users/NeXT/.npm/r.cnpmjs.org/cheerio/.cache.json
+65 verbose correctMkdir /Users/NeXT/.npm correctMkdir not in flight; initializing
+66 silly fetchPackageMetaData Error: No compatible version found: cheerio@undefined0.22.0
+66 silly fetchPackageMetaData Valid install targets:
+66 silly fetchPackageMetaData 1.0.0-rc.2, 1.0.0-rc.1, 0.22.0, 0.20.0, 0.19.0, 0.18.0, 0.17.0, 0.16.0, 0.15.0, 0.14.0, 0.13.1, 0.13.0, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.0, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.2, 0.9.1, 0.9.0, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.0.4, 0.0.3, 0.0.2, 0.0.1
+66 silly fetchPackageMetaData
+66 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+66 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+66 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+66 silly fetchPackageMetaData  error for cheerio@undefined0.22.0 { Error: No compatible version found: cheerio@undefined0.22.0
+66 silly fetchPackageMetaData Valid install targets:
+66 silly fetchPackageMetaData 1.0.0-rc.2, 1.0.0-rc.1, 0.22.0, 0.20.0, 0.19.0, 0.18.0, 0.17.0, 0.16.0, 0.15.0, 0.14.0, 0.13.1, 0.13.0, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.0, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.2, 0.9.1, 0.9.0, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.0.4, 0.0.3, 0.0.2, 0.0.1
+66 silly fetchPackageMetaData
+66 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+66 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+66 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+66 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+67 http 200 http://r.cnpmjs.org/express
+68 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+68 verbose headers   date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+68 verbose headers   'content-type': 'application/json; charset=utf-8',
+68 verbose headers   'transfer-encoding': 'chunked',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-current-requests': '1',
+68 verbose headers   'x-readtime': '368',
+68 verbose headers   'strict-transport-security': 'max-age=15768000',
+68 verbose headers   'content-encoding': 'gzip' }
+69 silly get cb [ 200,
+69 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+69 silly get     date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+69 silly get     'content-type': 'application/json; charset=utf-8',
+69 silly get     'transfer-encoding': 'chunked',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-current-requests': '1',
+69 silly get     'x-readtime': '368',
+69 silly get     'strict-transport-security': 'max-age=15768000',
+69 silly get     'content-encoding': 'gzip' } ]
+70 verbose get saving express to /Users/NeXT/.npm/r.cnpmjs.org/express/.cache.json
+71 verbose correctMkdir /Users/NeXT/.npm correctMkdir not in flight; initializing
+72 silly fetchPackageMetaData Error: No compatible version found: express@undefined4.14.0
+72 silly fetchPackageMetaData Valid install targets:
+72 silly fetchPackageMetaData 4.16.1, 4.16.0, 5.0.0-alpha.6, 4.15.5, 4.15.4, 4.15.3, 5.0.0-alpha.5, 4.15.2, 4.15.1, 5.0.0-alpha.4, 4.15.0, 5.0.0-alpha.3, 4.14.1, 4.14.0, 4.13.4, 4.13.3, 4.13.2, 3.21.2, 5.0.0-alpha.2, 4.13.1, 3.21.1, 4.13.0, 3.21.0, 4.12.4, 3.20.3, 4.12.3, 3.20.2, 4.12.2, 4.12.1, 3.20.1, 4.12.0, 3.20.0, 4.11.2, 3.19.2, 4.11.1, 3.19.1, 4.11.0, 4.10.8, 3.19.0, 4.10.7, 4.10.6, 3.18.6, 3.18.5, 4.10.5, 4.10.4, 4.10.3, 3.18.4, 4.10.2, 3.18.3, 5.0.0-alpha.1, 4.10.1, 3.18.2, 4.10.0, 3.18.1, 3.18.0, 4.9.8, 3.17.8, 4.9.7, 4.9.6, 3.17.7, 3.17.6, 4.9.5, 3.17.5, 4.9.4, 3.17.4, 4.9.3, 3.17.3, 4.9.2, 4.9.1, 3.17.2, 4.9.0, 3.17.1, 3.17.0, 4.8.8, 3.16.10, 4.8.7, 3.16.9, 4.8.6, 3.16.8, 4.8.5, 3.16.7, 4.8.4, 3.16.6, 3.16.5, 4.8.3, 3.16.4, 3.16.3, 4.8.2, 3.16.2, 4.8.1, 3.16.1, 4.8.0, 3.16.0, 4.7.4, 3.15.3, 4.7.3, 4.7.2, 3.15.2, 4.7.1, 3.15.1, 4.7.0, 3.15.0, 4.6.1, 4.6.0, 3.14.0, 4.5.1, 4.5.0, 3.13.0, 4.4.5, 3.12.1, 3.12.0, 4.4.4, 3.11.0, 4.4.3, 3.10.5, 4.4.2, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 4.4.1, 4.4.0, 3.9.0, 4.3.2, 3.8.1, 4.3.1, 4.3.0, 3.8.0, 3.7.0, 4.2.0, 3.6.0, 4.1.2, 3.5.3, 4.1.1, 4.1.0, 3.5.2, 4.0.0, 3.5.1, 4.0.0-rc4, 4.0.0-rc3, 3.5.0, 4.0.0-rc2, 4.0.0-rc1, 3.4.8, 3.4.7, 3.4.6, 3.4.5, 3.4.4, 3.4.3, 3.4.2, 3.4.1, 3.4.0, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.6, 3.2.5, 3.2.4, 3.2.3, 3.2.2, 3.2.1, 3.2.0, 3.1.2, 3.1.1, 3.1.0, 3.0.6, 3.0.5, 3.0.4, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc5, 3.0.0-rc4, 3.0.0-rc3, 3.0.0-rc2, 3.0.0-rc1, 3.0.0-beta7, 3.0.0-beta6, 2.5.11, 3.0.0-beta4, 2.5.10, 3.0.0-beta3, 3.0.0-beta2, 3.0.0-beta1, 3.0.0-alpha5, 3.0.0-alpha4, 3.0.0-alpha3, 3.0.0-alpha2, 3.0.0-alpha1, 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.4.7, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.12, 2.3.11, 2.3.10, 2.3.9, 2.3.8, 2.3.7, 2.3.6, 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.0, 2.0.0-rc3, 2.0.0-rc2, 2.0.0-rc, 2.0.0-beta3, 2.0.0-beta2, 2.0.0-beta, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0-rc4, 1.0.0-rc3, 1.0.0-rc2, 1.0.0-rc, 1.0.0-beta2, 1.0.0-beta, 0.14.1, 1.0.0, 0.14.0
+72 silly fetchPackageMetaData
+72 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+72 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+72 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+72 silly fetchPackageMetaData  error for express@undefined4.14.0 { Error: No compatible version found: express@undefined4.14.0
+72 silly fetchPackageMetaData Valid install targets:
+72 silly fetchPackageMetaData 4.16.1, 4.16.0, 5.0.0-alpha.6, 4.15.5, 4.15.4, 4.15.3, 5.0.0-alpha.5, 4.15.2, 4.15.1, 5.0.0-alpha.4, 4.15.0, 5.0.0-alpha.3, 4.14.1, 4.14.0, 4.13.4, 4.13.3, 4.13.2, 3.21.2, 5.0.0-alpha.2, 4.13.1, 3.21.1, 4.13.0, 3.21.0, 4.12.4, 3.20.3, 4.12.3, 3.20.2, 4.12.2, 4.12.1, 3.20.1, 4.12.0, 3.20.0, 4.11.2, 3.19.2, 4.11.1, 3.19.1, 4.11.0, 4.10.8, 3.19.0, 4.10.7, 4.10.6, 3.18.6, 3.18.5, 4.10.5, 4.10.4, 4.10.3, 3.18.4, 4.10.2, 3.18.3, 5.0.0-alpha.1, 4.10.1, 3.18.2, 4.10.0, 3.18.1, 3.18.0, 4.9.8, 3.17.8, 4.9.7, 4.9.6, 3.17.7, 3.17.6, 4.9.5, 3.17.5, 4.9.4, 3.17.4, 4.9.3, 3.17.3, 4.9.2, 4.9.1, 3.17.2, 4.9.0, 3.17.1, 3.17.0, 4.8.8, 3.16.10, 4.8.7, 3.16.9, 4.8.6, 3.16.8, 4.8.5, 3.16.7, 4.8.4, 3.16.6, 3.16.5, 4.8.3, 3.16.4, 3.16.3, 4.8.2, 3.16.2, 4.8.1, 3.16.1, 4.8.0, 3.16.0, 4.7.4, 3.15.3, 4.7.3, 4.7.2, 3.15.2, 4.7.1, 3.15.1, 4.7.0, 3.15.0, 4.6.1, 4.6.0, 3.14.0, 4.5.1, 4.5.0, 3.13.0, 4.4.5, 3.12.1, 3.12.0, 4.4.4, 3.11.0, 4.4.3, 3.10.5, 4.4.2, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 4.4.1, 4.4.0, 3.9.0, 4.3.2, 3.8.1, 4.3.1, 4.3.0, 3.8.0, 3.7.0, 4.2.0, 3.6.0, 4.1.2, 3.5.3, 4.1.1, 4.1.0, 3.5.2, 4.0.0, 3.5.1, 4.0.0-rc4, 4.0.0-rc3, 3.5.0, 4.0.0-rc2, 4.0.0-rc1, 3.4.8, 3.4.7, 3.4.6, 3.4.5, 3.4.4, 3.4.3, 3.4.2, 3.4.1, 3.4.0, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.6, 3.2.5, 3.2.4, 3.2.3, 3.2.2, 3.2.1, 3.2.0, 3.1.2, 3.1.1, 3.1.0, 3.0.6, 3.0.5, 3.0.4, 3.0.3, 3.0.2, 3.0.1, 3.0.0, 3.0.0-rc5, 3.0.0-rc4, 3.0.0-rc3, 3.0.0-rc2, 3.0.0-rc1, 3.0.0-beta7, 3.0.0-beta6, 2.5.11, 3.0.0-beta4, 2.5.10, 3.0.0-beta3, 3.0.0-beta2, 3.0.0-beta1, 3.0.0-alpha5, 3.0.0-alpha4, 3.0.0-alpha3, 3.0.0-alpha2, 3.0.0-alpha1, 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.4.7, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.12, 2.3.11, 2.3.10, 2.3.9, 2.3.8, 2.3.7, 2.3.6, 2.3.5, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.1.1, 2.1.0, 2.0.0, 2.0.0-rc3, 2.0.0-rc2, 2.0.0-rc, 2.0.0-beta3, 2.0.0-beta2, 2.0.0-beta, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0-rc4, 1.0.0-rc3, 1.0.0-rc2, 1.0.0-rc, 1.0.0-beta2, 1.0.0-beta, 0.14.1, 1.0.0, 0.14.0
+72 silly fetchPackageMetaData
+72 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+72 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+72 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+72 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+73 http 200 http://r.cnpmjs.org/vue
+74 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+74 verbose headers   date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+74 verbose headers   'content-type': 'application/json; charset=utf-8',
+74 verbose headers   'transfer-encoding': 'chunked',
+74 verbose headers   connection: 'keep-alive',
+74 verbose headers   'x-current-requests': '1',
+74 verbose headers   'x-readtime': '364',
+74 verbose headers   'strict-transport-security': 'max-age=15768000',
+74 verbose headers   'content-encoding': 'gzip' }
+75 silly get cb [ 200,
+75 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+75 silly get     date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+75 silly get     'content-type': 'application/json; charset=utf-8',
+75 silly get     'transfer-encoding': 'chunked',
+75 silly get     connection: 'keep-alive',
+75 silly get     'x-current-requests': '1',
+75 silly get     'x-readtime': '364',
+75 silly get     'strict-transport-security': 'max-age=15768000',
+75 silly get     'content-encoding': 'gzip' } ]
+76 verbose get saving vue to /Users/NeXT/.npm/r.cnpmjs.org/vue/.cache.json
+77 verbose correctMkdir /Users/NeXT/.npm correctMkdir not in flight; initializing
+78 silly fetchPackageMetaData Error: No compatible version found: vue@undefined1.0.26
+78 silly fetchPackageMetaData Valid install targets:
+78 silly fetchPackageMetaData 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.3.0-beta.1, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-beta.2, 2.2.0-beta.1, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-rc.8, 1.0.28-csp, 1.0.28, 2.0.0-rc.7, 1.0.27-csp, 1.0.27, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 1.0.26-csp, 1.0.26, 2.0.0-alpha.8, 2.0.0-alpha.7, 2.0.0-alpha.6, 2.0.0-alpha.5, 1.0.25-csp, 1.0.25, 2.0.0-alpha.4, 2.0.0-alpha.3, 2.0.0-alpha.2, 2.0.0-alpha.1, 1.0.24-csp, 1.0.24, 1.0.23-csp, 1.0.23, 1.0.22-csp, 1.0.22, 1.0.21-csp, 1.0.21, 1.0.20-csp, 1.0.20, 1.0.19-csp, 1.0.19, 1.0.18-csp, 1.0.18, 1.0.17-csp, 1.0.17, 1.0.16-csp, 1.0.16, 1.0.15-csp, 1.0.15, 1.0.14-csp, 1.0.14, 1.0.13-csp, 1.0.13, 1.0.12-csp-1, 1.0.12-csp, 1.0.12, 1.0.11-csp, 1.0.11, 1.0.10-csp, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-migration, 1.0.0-csp, 1.0.0-rc.2, 1.0.0-rc.2-migration, 1.0.0-rc.1, 1.0.0-beta.4, 1.0.0-alpha.8, 1.0.0-beta.3, 1.0.0-alpha.7, 1.0.0-beta.2, 1.0.0-alpha.6, 0.12.16-csp, 0.12.16, 1.0.0-beta.1, 1.0.0-alpha.5, 0.12.15-csp, 0.12.15, 1.0.0-alpha.4, 0.12.14-csp, 0.12.14, 1.0.0-alpha.3, 0.12.13-csp, 0.12.13, 1.0.0-alpha.2, 1.0.0-alpha.1, 0.12.12-csp, 0.12.12, 0.12.11-csp, 0.12.11, 0.12.10-csp, 0.12.10, 0.12.9-csp, 0.12.9, 0.12.8-csp, 0.12.8, 0.12.7-csp, 0.12.7, 0.12.6-csp, 0.12.6, 0.12.5-csp, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1-csp.2, 0.12.1-csp.1, 0.12.1-csp, 0.12.1, 0.12.0-csp, 0.12.0, 0.12.0-rc2, 0.12.0-rc, 0.12.0-beta5, 0.12.0-beta4, 0.12.0-beta3, 0.12.0-beta2, 0.12.0-beta1, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.11.0-rc3, 0.11.0-rc2, 0.11.0-rc, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.8, 0.8.7, 0.8.6, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.1, 0.7.0, 0.6.0, 0.0.0
+78 silly fetchPackageMetaData
+78 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+78 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+78 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+78 silly fetchPackageMetaData  error for vue@undefined1.0.26 { Error: No compatible version found: vue@undefined1.0.26
+78 silly fetchPackageMetaData Valid install targets:
+78 silly fetchPackageMetaData 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.4, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.3.0-beta.1, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-beta.2, 2.2.0-beta.1, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-rc.8, 1.0.28-csp, 1.0.28, 2.0.0-rc.7, 1.0.27-csp, 1.0.27, 2.0.0-rc.6, 2.0.0-rc.5, 2.0.0-rc.4, 2.0.0-rc.3, 2.0.0-rc.2, 2.0.0-rc.1, 2.0.0-beta.8, 2.0.0-beta.7, 2.0.0-beta.6, 2.0.0-beta.5, 2.0.0-beta.4, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 1.0.26-csp, 1.0.26, 2.0.0-alpha.8, 2.0.0-alpha.7, 2.0.0-alpha.6, 2.0.0-alpha.5, 1.0.25-csp, 1.0.25, 2.0.0-alpha.4, 2.0.0-alpha.3, 2.0.0-alpha.2, 2.0.0-alpha.1, 1.0.24-csp, 1.0.24, 1.0.23-csp, 1.0.23, 1.0.22-csp, 1.0.22, 1.0.21-csp, 1.0.21, 1.0.20-csp, 1.0.20, 1.0.19-csp, 1.0.19, 1.0.18-csp, 1.0.18, 1.0.17-csp, 1.0.17, 1.0.16-csp, 1.0.16, 1.0.15-csp, 1.0.15, 1.0.14-csp, 1.0.14, 1.0.13-csp, 1.0.13, 1.0.12-csp-1, 1.0.12-csp, 1.0.12, 1.0.11-csp, 1.0.11, 1.0.10-csp, 1.0.10, 1.0.9, 1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-migration, 1.0.0-csp, 1.0.0-rc.2, 1.0.0-rc.2-migration, 1.0.0-rc.1, 1.0.0-beta.4, 1.0.0-alpha.8, 1.0.0-beta.3, 1.0.0-alpha.7, 1.0.0-beta.2, 1.0.0-alpha.6, 0.12.16-csp, 0.12.16, 1.0.0-beta.1, 1.0.0-alpha.5, 0.12.15-csp, 0.12.15, 1.0.0-alpha.4, 0.12.14-csp, 0.12.14, 1.0.0-alpha.3, 0.12.13-csp, 0.12.13, 1.0.0-alpha.2, 1.0.0-alpha.1, 0.12.12-csp, 0.12.12, 0.12.11-csp, 0.12.11, 0.12.10-csp, 0.12.10, 0.12.9-csp, 0.12.9, 0.12.8-csp, 0.12.8, 0.12.7-csp, 0.12.7, 0.12.6-csp, 0.12.6, 0.12.5-csp, 0.12.5, 0.12.4, 0.12.3, 0.12.2, 0.12.1-csp.2, 0.12.1-csp.1, 0.12.1-csp, 0.12.1, 0.12.0-csp, 0.12.0, 0.12.0-rc2, 0.12.0-rc, 0.12.0-beta5, 0.12.0-beta4, 0.12.0-beta3, 0.12.0-beta2, 0.12.0-beta1, 0.11.10, 0.11.9, 0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.11.1, 0.11.0, 0.11.0-rc3, 0.11.0-rc2, 0.11.0-rc, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.8, 0.8.7, 0.8.6, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.6, 0.7.5, 0.7.4, 0.7.3, 0.7.1, 0.7.0, 0.6.0, 0.0.0
+78 silly fetchPackageMetaData
+78 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+78 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+78 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+78 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+79 http 200 http://r.cnpmjs.org/request
+80 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+80 verbose headers   date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+80 verbose headers   'content-type': 'application/json; charset=utf-8',
+80 verbose headers   'transfer-encoding': 'chunked',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'x-current-requests': '1',
+80 verbose headers   'x-readtime': '403',
+80 verbose headers   'strict-transport-security': 'max-age=15768000',
+80 verbose headers   'content-encoding': 'gzip' }
+81 silly get cb [ 200,
+81 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+81 silly get     date: 'Wed, 04 Oct 2017 13:29:06 GMT',
+81 silly get     'content-type': 'application/json; charset=utf-8',
+81 silly get     'transfer-encoding': 'chunked',
+81 silly get     connection: 'keep-alive',
+81 silly get     'x-current-requests': '1',
+81 silly get     'x-readtime': '403',
+81 silly get     'strict-transport-security': 'max-age=15768000',
+81 silly get     'content-encoding': 'gzip' } ]
+82 verbose get saving request to /Users/NeXT/.npm/r.cnpmjs.org/request/.cache.json
+83 verbose correctMkdir /Users/NeXT/.npm correctMkdir not in flight; initializing
+84 silly fetchPackageMetaData Error: No compatible version found: request@undefined2.81.0
+84 silly fetchPackageMetaData Valid install targets:
+84 silly fetchPackageMetaData 2.83.0, 2.82.0, 2.81.0, 2.80.0, 2.79.0, 2.78.0, 2.77.0, 2.76.0, 2.75.0, 2.74.0, 2.73.0, 2.72.0, 2.71.0, 2.70.0, 2.69.0, 2.68.0, 2.67.0, 2.66.0, 2.65.0, 2.64.0, 2.63.0, 2.62.0, 2.61.0, 2.60.0, 2.59.0, 2.58.0, 2.57.0, 2.56.0, 2.55.0, 2.54.0, 2.53.0, 2.52.0, 2.51.0, 2.50.0, 2.49.0, 2.48.0, 2.47.0, 2.46.0, 2.45.0, 2.44.0, 2.43.0, 2.42.0, 2.41.0, 2.40.0, 2.39.0, 2.38.0, 2.37.0, 2.36.0, 2.35.0, 2.34.0, 2.33.0, 2.32.0, 2.31.0, 2.30.0, 2.29.0, 2.28.0, 2.27.0, 2.26.0, 2.25.0, 2.24.0, 2.23.0, 2.22.0, 2.21.0, 2.20.0, 2.19.0, 2.18.0, 2.16.6, 2.16.4, 2.16.2, 2.16.0, 2.14.0, 2.12.0, 2.11.4, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.0, 2.9.203, 2.9.202, 2.9.201, 2.9.200, 2.9.153, 2.9.152, 2.9.151, 2.9.150, 2.9.100, 2.9.3, 2.9.2, 2.9.1, 2.9.0, 2.2.9, 2.2.6, 2.2.5, 2.2.0, 2.1.1, 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.9.9, 1.9.8, 1.9.7, 1.9.5, 1.9.3, 1.9.2, 1.9.1, 1.9.0, 1.2.0, 1.1.1, 1.1.0, 0.9.0, 1.0.0, 0.9.5, 0.9.1, 0.8.3, 0.10.0
+84 silly fetchPackageMetaData
+84 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+84 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+84 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15)
+84 silly fetchPackageMetaData  error for request@undefined2.81.0 { Error: No compatible version found: request@undefined2.81.0
+84 silly fetchPackageMetaData Valid install targets:
+84 silly fetchPackageMetaData 2.83.0, 2.82.0, 2.81.0, 2.80.0, 2.79.0, 2.78.0, 2.77.0, 2.76.0, 2.75.0, 2.74.0, 2.73.0, 2.72.0, 2.71.0, 2.70.0, 2.69.0, 2.68.0, 2.67.0, 2.66.0, 2.65.0, 2.64.0, 2.63.0, 2.62.0, 2.61.0, 2.60.0, 2.59.0, 2.58.0, 2.57.0, 2.56.0, 2.55.0, 2.54.0, 2.53.0, 2.52.0, 2.51.0, 2.50.0, 2.49.0, 2.48.0, 2.47.0, 2.46.0, 2.45.0, 2.44.0, 2.43.0, 2.42.0, 2.41.0, 2.40.0, 2.39.0, 2.38.0, 2.37.0, 2.36.0, 2.35.0, 2.34.0, 2.33.0, 2.32.0, 2.31.0, 2.30.0, 2.29.0, 2.28.0, 2.27.0, 2.26.0, 2.25.0, 2.24.0, 2.23.0, 2.22.0, 2.21.0, 2.20.0, 2.19.0, 2.18.0, 2.16.6, 2.16.4, 2.16.2, 2.16.0, 2.14.0, 2.12.0, 2.11.4, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.0, 2.9.203, 2.9.202, 2.9.201, 2.9.200, 2.9.153, 2.9.152, 2.9.151, 2.9.150, 2.9.100, 2.9.3, 2.9.2, 2.9.1, 2.9.0, 2.2.9, 2.2.6, 2.2.5, 2.2.0, 2.1.1, 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.9.9, 1.9.8, 1.9.7, 1.9.5, 1.9.3, 1.9.2, 1.9.1, 1.9.0, 1.2.0, 1.1.1, 1.1.0, 0.9.0, 1.0.0, 0.9.5, 0.9.1, 0.8.3, 0.10.0
+84 silly fetchPackageMetaData
+84 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+84 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+84 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+84 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:114:15) code: 'ETARGET' }
+85 silly rollbackFailedOptional Starting
+86 silly rollbackFailedOptional Finishing
+87 silly runTopLevelLifecycles Finishing
+88 silly install printInstalled
+89 verbose stack Error: No compatible version found: cheerio@undefined0.22.0
+89 verbose stack Valid install targets:
+89 verbose stack 1.0.0-rc.2, 1.0.0-rc.1, 0.22.0, 0.20.0, 0.19.0, 0.18.0, 0.17.0, 0.16.0, 0.15.0, 0.14.0, 0.13.1, 0.13.0, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.0, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.2, 0.9.1, 0.9.0, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.0.4, 0.0.3, 0.0.2, 0.0.1
+89 verbose stack
+89 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:158:16)
+89 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+89 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+89 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+89 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:261:18
+89 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+90 verbose cwd /Users/NeXT/Desktop/Web
+91 error Darwin 15.6.0
+92 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+93 error node v7.6.0
+94 error npm  v4.1.2
+95 error code ETARGET
+96 error notarget No compatible version found: cheerio@undefined0.22.0
+96 error notarget Valid install targets:
+96 error notarget 1.0.0-rc.2, 1.0.0-rc.1, 0.22.0, 0.20.0, 0.19.0, 0.18.0, 0.17.0, 0.16.0, 0.15.0, 0.14.0, 0.13.1, 0.13.0, 0.12.4, 0.12.3, 0.12.2, 0.12.1, 0.12.0, 0.11.0, 0.10.8, 0.10.7, 0.10.6, 0.10.5, 0.10.4, 0.10.3, 0.10.2, 0.10.1, 0.10.0, 0.9.2, 0.9.1, 0.9.0, 0.8.3, 0.8.2, 0.8.1, 0.8.0, 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.5, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.0.4, 0.0.3, 0.0.2, 0.0.1
+97 error notarget This is most likely not a problem with npm itself.
+97 error notarget In most cases you or one of your dependencies are requesting
+97 error notarget a package version that doesn't exist.
+97 error notarget
+97 error notarget It was specified as a dependency of 'NeXT'
+98 verbose exit [ 1, true ]
