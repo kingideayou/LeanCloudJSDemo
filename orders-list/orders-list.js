@@ -8,7 +8,7 @@ function setupData() {
   // https://leancloud.cn/docs/leanstorage_guide-js.html#查询
   var query = new AV.Query('Order');
   // query.include('owner');
-  // query.include('image');
+  query.include('technician');
   query.include('amount');
   query.include('paymentType');
   query.descending('createdAt');
@@ -18,6 +18,7 @@ function setupData() {
       var amount = order.get('amount');
       var paymentType = order.get('paymentType');
       var releaseTime = (order.createdAt.getMonth() + 1) + '/' + order.createdAt.getDate() + '/' +  order.createdAt.getFullYear();
+      var technicianName = order.get('technician').get('name');
       // var ownerUsername = order.get('owner').get('username');
       // var productImage = order.get('image');
       // var productImageUrl;
@@ -30,6 +31,7 @@ function setupData() {
       context.orders.push({
         amount,
         paymentType,
+        technicianName,
         releaseTime
       });
     });
