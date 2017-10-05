@@ -28,11 +28,44 @@
       </div>
 
       <form class="new-order">
+
         <h2 class="new-product-heading">创建新订单</h2>
 
 
-        <label for="technicianId" class="sr-only">技师</label>
-        <input type="title" id="inputTechnician" class="form-control" placeholder="技师" required autofocus>
+        <!-- Products list content -->
+        <!-- <div class="row orders-detail">
+        <script id="orders-list" type="text/x-handlebars-template">
+          {{#each orders}}
+          <div class="col-sm-6 col-md-4 order-detail">
+            <div class="thumbnail">
+              <img src={{productImageUrl}}>
+              <div class="caption">
+                <p>金额：{{{amount}}}</p>
+                <p>交易方式：{{{paymentType}}}</p>
+                <p>订单时间：{{{releaseTime}}}</p>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+        </script>
+      </div> -->
+
+        <section class="technician-detail">
+          <p>
+              <label for="technicianId">技师:</label>
+              <select id="inputTechnician">
+                  <script id="technicians-list" type="text/x-handlebars-template">
+                  {{technicians}}
+                    {{#each technicians}}
+                        <option>{{name}}</option>
+                    {{/each}}
+                    </script>
+              </select>
+          </p>
+        </section>
+
+        <!-- <label for="technicianId" class="sr-only">技师</label> -->
+        <!-- <input type="title" id="inputTechnician" class="form-control" placeholder="技师" required autofocus> -->
 
         <label for="service-type" class="sr-only">服务类型</label>
         <input type="title" id="inputService" class="form-control" placeholder="服务类型" required autofocus>
@@ -56,8 +89,19 @@
         <label for="customer-from" class="sr-only">客源渠道</label>
         <input type="title" id="inputFrom" class="form-control" placeholder="客源渠道" required autofocus>
 
-        <label for="assigned-technician" class="sr-only">指定技师</label>
-        <input type="title" id="inputAssigned" class="form-control" placeholder="指定技师" required autofocus>
+        <!-- <label for="assigned-technician" class="sr-only">指定技师</label>
+        <input type="title" id="inputAssigned" class="form-control" placeholder="指定技师" required autofocus> -->
+
+        <section>
+          <p>
+              <label for="assigned-technician">指定技师:</label>
+              <select id="inputAssigned">
+                <option>是</option>
+                <option>否</option>
+              </select>
+          </p>
+        </section>
+
 
 
 <!--
