@@ -105,7 +105,7 @@ function releaseNewOrder() {
 };
 
 $(function() {
-  setupData();
+  // setupData();
   if (isCurrentUser()) {
     $(".new-order").on('submit', function(e) {
       e.preventDefault();
