@@ -32,15 +32,16 @@ function setupData() {
     });
 
     // use handlebars to update html
-    var source = $("#technicians-list").html();
+    var source = $("#custom-technicians-list").html();
     var template = Handlebars.compile(source);
     var html = template(context);
-    $('.technician-detail').html(html);
+    $('.custom-technicians-detail').html(html);
 
   }).catch(function(error) {
-    alert(JSON.stringify(error));
+    alert('获取失败：' + JSON.stringify(error));
   });
 };
+
 
 //创建订单
 var Order = AV.Object.extend('Order');
@@ -57,7 +58,6 @@ function releaseNewOrder() {
 
   console.log('technicianId : ' + technicianId)
 
-  return;
   var query = new AV.Query('Technician');
   query.get(technicianId).then(function (technician) {
     if (technician == null) {
@@ -105,7 +105,7 @@ function releaseNewOrder() {
 };
 
 $(function() {
-  // setupData();
+  setupData();
   if (isCurrentUser()) {
     $(".new-order").on('submit', function(e) {
       e.preventDefault();
